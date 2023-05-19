@@ -1,0 +1,113 @@
+body{
+    background-image: url("Imagenes/fondo3.jpg");
+}
+
+.Logo{
+    width: 15%;
+    height: 15%;
+}
+.tortas{    
+    width: 90%;
+    height: 90%;
+    align-self: flex-start;
+}
+.tortas1{    
+    width: 80%;
+    height: 80%;
+    align-self: flex-start;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.productos{
+    flex-direction: column;
+    flex-direction: row;
+    display: flex;
+    width: 90%;
+    padding: 15px;
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+
+}
+
+.elegantes{
+    flex-direction: column;
+    flex-direction: row;
+    display: flex;
+    height: 40vh;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: white;
+    border: 20px solid #ea889a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 15px;
+
+}
+.Animadas{
+    flex-direction: column;
+    flex-direction: row;
+    display: flex;
+    height: 40vh;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: white;
+    border: 20px solid #ea889a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 15px;
+
+}
+
+.cumpleaños{
+    flex-direction: column;
+    flex-direction: row;
+    display: flex;
+    height: 40vh;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: white;
+    border: 20px solid #ea889a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 15px;
+
+}
+
+.pie{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    margin: auto;
+    padding: 15px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+}
+
+.primero{
+    margin-top: 20px;
+   
+}
+
+.segundo{
+    margin-top: 20px;
+    padding-left: 30px;
+
+}
+
+.tercero{
+    margin-top: 20px;
+    padding-left: 50px;
+}
